@@ -5,11 +5,13 @@ The program is designed to simulate the security installation to installed in ma
 ## How to Build Run the Executable
 First, the Keypad class was created. This created the consturctors for the GUI class to take in the values of the variables used. After the Keypad was finished, the GUI class was created. This is the execuatble Java file that can run when turned into the .jar file. In the GUI class was the public static void method that executes the code when you run in the IDE and the .jar file through the terminal. The GUI class creates a Guided-User-Interface that consists of a JFrame (the window itself), a JLabel that tells the user if the mechanism is unlocked or not, and a JTextField that the user can type a string of numbers and characteres into.
 
-To turn the java files into a runnable .jar file, you need the .java files of your project and a manifest.txt file that specifies which .java file is the "Main" class. The manifeset.txt file should be formatted as:
+To turn the java files into a runnable .jar file, you need the .java files of your project and a manifest.txt file that specifies which .java file is the "Main" class. The manifeset.txt file should be formatted as: If the class is nested inside a package the package will need to be inlcuded in the mainfest file so rename the file as such. 
+
+Package/Main-Class : Example/MainClass
 
 Main-Class: nameOfMainClass
 
-with a return at the end of the line. (The manifest.txt file is in the git repository. No need to make or edit the file.)
+with a return at the end of the line.
 
 Therefore, first clone the git repo to a directory of your chooing and navigate into the cloned git repo by typing:
 
