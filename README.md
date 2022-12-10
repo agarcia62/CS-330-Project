@@ -25,8 +25,8 @@ This will turn all .java files into .class files, which you will use next. To th
 
 jar cfm FinalProject.jar manifest.txt *.class
 ## How To Run The Executable In The Github Repository
-In the GitHub repository there is a jar file named RunnableGUI.jar. The first step is to clone the git repository to a directory of your choice. Next, navigate to that directory where you cloned the git repository and find the folder created. Then there should be 2 java files the READMe.md and the RunnableTest.jar in the terminal prompt. java-jar CS-330FinalProject.
-This should run the interface,the JFrame should appear. To test the program,delete the text "Type here", then begin testing. 
+In the GitHub repository there is a jar file named Test.jar. The first step is to clone the git repository to a directory of your choice. Next, navigate to that directory where you cloned the git repository and find the folder created. Then there should be 2 java files the READMe.md and the RunnableTest.jar in the terminal prompt. java-jar CS-330-Project.
+This should run the interface,the JFrame should appear. To test the program, begin inputting the correct unlock and lock codes. 
 ## How to Generate Unit Test Coverage
 The first step will be creating the JUnit test class this will be found in the package explorer and select new JUnit test case. Click the next button, check the box and click finish. Run the test if a green bar appears then the code passed if a red bar appears then the test failed. You can run coverage analysis against your program by clicking the button to the right of run. Additional tests can be created until 100% of the code is covered. Testing for exceptions can also be done if need be. The test cases need to be done well in order to catch errors just because the code is covered doesnt' mean the test are effective. 
 ## The Platform Its Been Tested On
